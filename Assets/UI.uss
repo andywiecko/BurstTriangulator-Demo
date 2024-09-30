@@ -1,0 +1,15 @@
+.field {
+    -unity-font-style: normal;
+    font-size: 14px;
+}
+
+.stats {
+}
+
+#area {
+    margin-left: 30px;
+}
+
+#angle {
+    margin-left: 30px;
+}
