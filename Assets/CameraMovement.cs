@@ -6,8 +6,6 @@ namespace andywiecko.BurstTriangulator.Demo
     [RequireComponent(typeof(Camera))]
     public class CameraMovement : MonoBehaviour
     {
-        private new Camera camera;
-
         [SerializeField]
         private float2 minMaxSize = new(0.01f, 1);
 
@@ -26,8 +24,9 @@ namespace andywiecko.BurstTriangulator.Demo
         [SerializeField]
         private float2 yrange = new(-0.7f, -0.3f);
 
-        float size;
-        float3 x0, home;
+        private new Camera camera;
+        private float size;
+        private float3 x0, home;
 
         private void Start()
         {
