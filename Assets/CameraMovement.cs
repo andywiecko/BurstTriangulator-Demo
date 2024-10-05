@@ -6,7 +6,7 @@ namespace andywiecko.BurstTriangulator.Demo
     [RequireComponent(typeof(Camera))]
     public class CameraMovement : MonoBehaviour
     {
-        private Camera camera;
+        private new Camera camera;
 
         [SerializeField]
         private float2 minMaxSize = new(0.01f, 1);
@@ -48,12 +48,12 @@ namespace andywiecko.BurstTriangulator.Demo
                 camera.orthographicSize = size;
             }
 
-            if (Input.GetMouseButtonDown(2))
+            if (Input.GetMouseButtonDown(1))
             {
                 x0 = Input.mousePosition;
             }
 
-            if (Input.GetMouseButton(2))
+            if (Input.GetMouseButton(1))
             {
                 var x1 = (float3)Input.mousePosition;
                 var n = math.normalizesafe(x1 - x0);
