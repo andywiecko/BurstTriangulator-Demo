@@ -231,7 +231,7 @@ MonoBehaviour:
   minMaxSize:
     x: 0.01
     y: 1
-  wheelSpeed: 10
+  wheelSpeed: 2
   moveSpeed: 1
   speedup: 3
   xrange:
