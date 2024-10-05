@@ -3,13 +3,6 @@
     font-size: 14px;
 }
 
-.stats {
-}
-
-#area {
-    margin-left: 30px;
-}
-
-#angle {
+.add-indent {
     margin-left: 30px;
 }

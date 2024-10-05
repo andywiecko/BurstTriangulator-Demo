@@ -17,8 +17,8 @@
             <ui:Foldout text="Config" value="true" style="-unity-font-style: bold; font-size: 18px;">
                 <ui:Toggle label="Holes" name="holes" class="field" />
                 <ui:Toggle label="Refine" name="refine" class="field" />
-                <ui:Slider picking-mode="Ignore" label="Area" name="area" high-value="0.12" low-value="0.01" value="0.12" class="field" />
-                <ui:Slider picking-mode="Ignore" label="Angle" name="angle" high-value="0.55" class="field" />
+                <ui:Slider picking-mode="Ignore" label="Area" name="area" high-value="0.12" low-value="0.01" value="0.12" class="field add-indent" />
+                <ui:Slider picking-mode="Ignore" label="Angle" name="angle" high-value="0.55" class="field add-indent" />
             </ui:Foldout>
         </ui:VisualElement>
     </ui:VisualElement>
