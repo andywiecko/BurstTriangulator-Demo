@@ -367,6 +367,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1321193197}
+  packageVersion: v3.4.0
 --- !u!114 &1683663932
 MonoBehaviour:
   m_ObjectHideFlags: 0

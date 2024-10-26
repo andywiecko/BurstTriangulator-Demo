@@ -2,7 +2,11 @@
     <Style src="project://database/Assets/UI.uss?fileID=7433441132597879392&amp;guid=433f8a57c6d59fe488f30ffb49c866cd&amp;type=3#UI" />
     <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px;">
         <ui:VisualElement focusable="false" style="background-color: rgba(0, 0, 0, 0); width: 300px; position: relative; background-image: url(&apos;project://database/Assets/Square.png?fileID=2800000&amp;guid=23158fd6e3f5d744e847ba2fbb473541&amp;type=3#Square&apos;); border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(32, 32, 32); border-right-color: rgb(32, 32, 32); border-top-color: rgb(32, 32, 32); border-bottom-color: rgb(32, 32, 32); -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=dd2b478e96b7a984caccac078fcaf164&amp;type=3#NotInter-Regular&apos;); opacity: 1; visibility: visible; padding-bottom: 5px; padding-right: 5px; padding-top: 5px; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px;">
-            <ui:Foldout text="Stats" style="-unity-font-style: bold; font-size: 18px;">
+            <ui:Foldout text="Info" style="-unity-font-style: bold; font-size: 18px;">
+                <ui:VisualElement name="version" class="unity-base-field field" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+                    <ui:Label tabindex="-1" text="Package version:" display-tooltip-when-elided="true" class="unity-base-field__label" />
+                    <ui:Label tabindex="-1" text="vx.x.x" display-tooltip-when-elided="true" name="count" />
+                </ui:VisualElement>
                 <ui:VisualElement name="stats-triangles" class="unity-base-field field" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
                     <ui:Label tabindex="-1" text="Triangles:" display-tooltip-when-elided="true" class="unity-base-field__label" />
                     <ui:Label tabindex="-1" text="1323" display-tooltip-when-elided="true" name="count" />
